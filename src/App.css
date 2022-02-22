@@ -5,3 +5,32 @@ height: 15vh;
 }
 .projectSection{  
 }
+.contact{
+
+height: 100%;
+
+}
+.welcome{
+
+background-image: url("./assets/cover/logo.jpg");
+background-size:cover ;
+background-position:center;
+height: 100vh;
+font-size: 200px;
+color: rgb(108, 109, 112);
+text-align: left;
+align-content: center;
+padding-top: 10%;
+
+}
+header{
+
+  height:10vh;
+  padding-top: 1vw;
+}
+ul{
+  padding-top :0px;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: right;
+}

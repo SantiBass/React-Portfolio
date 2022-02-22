@@ -20,7 +20,7 @@ function Nav() {
   //   currentCategory,
   // } = props;
   return (
-    <header className="flex-row px-1">
+    <header className="flex-row px-1 header">
       <h2>
         <a data-testid="link" href="/">
           <span role="img" aria-label="camera">
@@ -31,7 +31,7 @@ function Nav() {
         </a>
       </h2>
       <nav>
-        <ul className="flex-row">
+        <ul className="flex-row ">
           <li className="mx-2">
             <NavLink to="/home" onClick={() => handleClick()}>
               Home

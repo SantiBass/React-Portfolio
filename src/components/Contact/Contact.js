@@ -2,13 +2,14 @@ import React from 'react'
 
 function Contact() {
   return (
-    <section>
+    <section className='container-is-widescreen'>
+      <div>Home</div>
     <h1>
-        Name:Contact
+        Contact
     </h1>
-    <p>
-        Description
-    </p>
+  
+
+    
 </section>
   )
 }
