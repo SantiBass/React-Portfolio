@@ -5,6 +5,9 @@ function About() {
         <section className='my-5'>
           <h1 id="about">Who am I?</h1>
           <img src={coverImage} className="my-2" style={{width: "50%",borderRadius:"8px"}} alt="cover" />
+        
+        
+          <p>Description of me here</p>
         </section>
       );
 }
