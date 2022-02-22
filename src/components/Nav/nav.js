@@ -24,6 +24,11 @@ function Nav() {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
+            <NavLink to="/home" onClick={() => handleClick()}>
+              Home
+            </NavLink>
+          </li>
+          <li className="mx-2">
             <NavLink to="/about" onClick={() => handleClick()}>
               About me
             </NavLink>
