@@ -5,7 +5,7 @@ function Home() {
     <>
     <div className='welcome'>Welcome
     <div>
-          <img src={coverImage} className="my-2 mx-2" style={{ width: "100%", borderRadius: "8px"  }} alt="cover" />
+          <img src={coverImage} className="my-2 mx-2" style={{backgroundImage: "cover" , width: "100%", borderRadius: "8px"  }} alt="cover" />
       </div>
       <div></div>
       </div>
