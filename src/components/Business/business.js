@@ -4,7 +4,7 @@ function Business() {
   return (
     <section>
         <h1>
-            Name
+            Name:Business
         </h1>
         <p>
             Description

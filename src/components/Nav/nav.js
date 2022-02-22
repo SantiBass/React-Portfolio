@@ -4,10 +4,10 @@ import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav() {
   const  categories = [
-    { name: 'Business', description: 'Photos of grocery stores, food trucks, and other commercial projects' },
-    { name: 'portraits', description: 'Portraits of people in my life' },
-    { name: 'food', description: 'Delicious delicacies' },
-    { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' }
+    //  { name: 'Business', description: 'Photos of grocery stores, food trucks, and other commercial projects' },
+    // { name: 'portraits', description: 'Portraits of people in my life' },
+    // { name: 'food', description: 'Delicious delicacies' },
+    // { name: 'landscape', description: 'Fields, farmhouses, waterfalls, and the beauty of nature' }
   ];
 
   const handleClick = () => {
@@ -31,6 +31,11 @@ function Nav() {
           <li className="mx-2">
             <NavLink to="/about" onClick={() => handleClick()}>
               About me
+            </NavLink>
+          </li>
+          <li className="mx-2">
+            <NavLink to="/business" onClick={() => handleClick()}>
+              Business
             </NavLink>
           </li>
           <li className={"mx-2"}>
