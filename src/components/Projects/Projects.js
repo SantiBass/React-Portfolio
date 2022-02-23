@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
+import CloseIcon from '@mui/icons-material/Close';
 // import Modal from '../Modal/Modal'
-import CloseIcon   from @material-ui/icons/Close
 import coverImage1 from '../../assets/Projects-Images/Barbers-Chair-ScreenShot.png'
 import coverImage2 from '../../assets/Projects-Images/BudgetTracker.png'
 import coverImage3 from '../../assets/Projects-Images/noteTaker.png'
@@ -110,7 +110,7 @@ const Projects = ()=> {
 
 
   ];
-  const [modal, setModal] = useState(false);
+  const [Modal, setModal] = useState(false);
   const [tempimgSrc, setTempImgSrc] = useState('');
   const getImg=(imgSrc)=>{
     setTempImgSrc(imgSrc);
@@ -121,9 +121,10 @@ const Projects = ()=> {
  
   return(
    <> <>
-   <div className={modal? 'modal open':'modal'}>
-     <img src={tempimgSrc}
-      onClick= {()=>setModal(false)}/>
+   <div className={Modal? 'Modal open':'Modal'}>
+     <img src={tempimgSrc}/>
+     
+     < CloseIcon onClick={()=>setModal(false)}/>
    </div>
    </>
    

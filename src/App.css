@@ -110,7 +110,7 @@ margin-bottom: 15px;
   filter: opacity(.5);
 }
 
-.modal{
+.Modal{
 width: 100%;
 height: 100vh;
 position: fixed;
@@ -127,14 +127,14 @@ transform: scale(0);
 overflow: hidden;
 z-index: 999;
 }
-.modal.open{
+.Modal.open{
 visibility: visible;
 opacity:1 ;
 transform: scale(1); 
 
 }
 
-.modal img{
+.Modal img{
   width: auto;
   max-width: 100%;
   height: auto;
@@ -149,7 +149,17 @@ transform: scale(1);
 } 
  
 
+.Modal.open svg{
+position: fixed;
+top: 10px;
+left: 10px;
+width: 4%;
+height:auto;
+padding: 5px;
+background-color: rgb(86, 92, 92);
+border-radius:5rem;
 
+}
 
 /* p{
 position:relative
