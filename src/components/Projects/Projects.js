@@ -77,35 +77,44 @@ const Projects = ()=> {
     },
     {
       atl:"Budget Tracker",
+      url:"https://budget-tracker1-pwa.herokuapp.com/",
       imgSrc: coverImage2,
+      
     },
     {
       atl:"Note Taker",
+      url: "https://notetaker2021-1.herokuapp.com/",
       imgSrc: coverImage3,
     },
     {
       atl:"Horiseon",
+      url:"https://santibass.github.io/Horiseon/",
       imgSrc: coverImage4,
     },
     {
       atl:"Password Generator",
+      url: "https://santibass.github.io/Password-Generator/",
       imgSrc: coverImage5,
     },
     {
       atl:"Personal Portfolio",
+      url: "https://santibass.github.io/Personal-Portfolio/",
       imgSrc: coverImage6,
+      
     },
     {
       atl:"Weather Dashboard",
+      url: "https://github.com/SantiBass/Weather-Dashboard",
       imgSrc: coverImage7,
     },
     {
       atl:"SYNTH Doctrina",
+      url:"https://itsjustpeachy.github.io/SYNT-Doctrina/",
       imgSrc: coverImage8,
     },
     {
       atl:"Tech Blog",
-      url:"https://barbers-chair.herokuapp.com/",
+      url:"https://github.com/SantiBass/the-fire-pit-can-be-seen-using-this-tech-blog",
       imgSrc: coverImage9,
     }
     
@@ -114,22 +123,27 @@ const Projects = ()=> {
   ];
   const [Modal, setModal] = useState(false);
   const [tempimgSrc, setTempImgSrc] = useState('');
-  const getImg=(imgSrc,url)=>{
-    setTempImgSrc(imgSrc,url);
+  const getImg=(imgSrc)=>{
+    setTempImgSrc(imgSrc);
     setModal(true )
      
   }
-        console.warn(data)
+  const getUrl=(url)=>{
+    setTempImgSrc(url);
+    setModal(true)
+  }
+        // console.warn(data)
  
   return(
    <> <>
    <div className={Modal? 'Modal open':'Modal'}>
      <img src={tempimgSrc}/>
+     {/* <a href={}/> */}
      
      <button  className='closeBtn' CloseIcon onClick={()=>setModal(false)}>Close</button>
      < CloseIcon onClick={()=>setModal(false)}/>
-     <button className='url1'>
-       <a href='https://barbers-chair.herokuapp.com/'/>Visit
+     <button className='url1'onClick={()=>getUrl(data.url)} >
+       <a href='data.url'/>Visit
      </button>
    </div>
    </>
@@ -138,12 +152,20 @@ const Projects = ()=> {
 
       {data.map((item, index) => {
         return (
-          <div className='pictures' key={index} onClick={() => getImg(item.imgSrc)}>
-            
-            <img src={item.imgSrc} style={{ width: "100%" }} />
-            <div>hi</div>
-          
+          <>
+
+          <div className='pictures' key={index} onClick={() => getImg(item.imgSrc,item.url)}>
+            <img src={item.imgSrc} style={{ width: "100%" }} a href={item.url} />
+              
+{/* <button className='url1' onClick={()=>getUrl(item.url)}>
+            </button> */}
+          {/* </div> */}
+          {/* <div className='url2' key={index} onClick={()=> getUrl(item.url)}>
+          <a href={data.url}/>Visit */}
+
           </div>
+         
+            </>
         )
       })}
     </div></>
