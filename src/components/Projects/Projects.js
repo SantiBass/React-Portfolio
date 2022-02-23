@@ -128,8 +128,8 @@ const Projects = ()=> {
      
      <button  className='closeBtn' CloseIcon onClick={()=>setModal(false)}>Close</button>
      < CloseIcon onClick={()=>setModal(false)}/>
-     <button>
-       <a src={data.url}/>Visit
+     <button className='url1'>
+       <a href='https://barbers-chair.herokuapp.com/'/>Visit
      </button>
    </div>
    </>
