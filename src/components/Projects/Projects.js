@@ -11,27 +11,32 @@ import coverImage9 from '../../assets/Projects-Images/The Tech Blog1.png'
 
 function Business() {
   return (
-    <section>
-        <h1>
-            Name:Projects
-        </h1>
+    <section className='pageHeight Projects'>
+       
         <p>
             Description
         </p>
-        <div className='projectSection'>
+        <div className='projectSection '>
+    
+        <div className='card'><img src={coverImage1} className="my-2 projectPictures card-title" style={{width: "200px",borderRadius:"8px", margin:"10px"}}alt="cover" /></div>
 
-        <img src={coverImage1} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" />
-        <img src={coverImage2} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" />
-        <img src={coverImage3} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" />
-        <img src={coverImage4} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" />
-        <img src={coverImage5} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" />
-        <img src={coverImage6} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" />
-        <img src={coverImage7} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" />
-        <img src={coverImage8} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" />
-        <img src={coverImage9} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" />
+
+
+        
+        <div className='card'>xcvbvbxcvb<img src={coverImage2} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}}alt="cover"  /></div>
+        <div className='card'>xcvbvbxcvb<img src={coverImage3} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+        <div className='card'>xcvbvbxcvb<img src={coverImage4} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+        <div className='card'>xcvbvbxcvb<img src={coverImage5} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+        <div className='card'>xcvbvbxcvb<img src={coverImage6} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+        <div className='card'>xcvbvbxcvb<img src={coverImage7} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+        <div className='card'>xcvbvbxcvb<img src={coverImage8} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+        <div className='card'>xcvbvbxcvb<img src={coverImage9} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+
+
 
 
         </div>
+        
     </section>
   )
 }

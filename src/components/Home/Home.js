@@ -3,7 +3,7 @@ import coverImage from '../../assets/cover/logo.jpg'
 function Home() {
   return (
     <>
-    <div className='welcome'>
+    <div className='welcome pageHeight'>
       Welcome
 
     <div>

@@ -4,18 +4,24 @@ height: 15vh;
 
 }
 .projectSection{  
+  font-size: 50px;
 }
 .contact{
 
 height: 100%;
 
 }
+h1{
+  font-size: 70px;
+  color: black;
+  
+}
 .welcome{
 
 background-image: url("./assets/cover/logo.jpg");
 background-size:cover ;
 background-position:center;
-height: 100vh;
+
 font-size: 200px;
 color: rgb(108, 109, 112);
 text-align: left;
@@ -24,13 +30,33 @@ padding-top: 10%;
 
 }
 header{
+  justify-content: space-between;
 
-  height:10vh;
-  padding-top: 1vw;
+  height:15vh;
+  padding-top: 3vw;
 }
 ul{
-  padding-top :0px;
+  /* padding-top :10px; */
   font-size: 30px;
   text-decoration: underline;
   text-align: right;
+}
+.pageHeight{
+  height: 100vh;
+
+}
+.Home{}
+.About{
+  background-image: url("./assets/cover/1.jpg");
+  background-size: cover;
+}
+.Projects{
+background-image: url("./assets/cover/3.jpg");
+background-size: cover;
+background-position: center;
+}
+.Contact{}
+p{
+position:relative
+
 }

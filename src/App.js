@@ -4,7 +4,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from './components/About/About';
 import Nav from './components/Nav/Nav';
-import Business from './components/Projects/Projects';
+import Projects from './components/Projects/Projects';
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import './App.css';
@@ -33,7 +33,7 @@ function App() {
 
         <Route path="/about" element={<About />} />
 
-        <Route path="/business" element={<Business />} />
+        <Route path="/projects" element={<Projects />} />
 
         <Route path="/contact" element={<Contact />} />
 
