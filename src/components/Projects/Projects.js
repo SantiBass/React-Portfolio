@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 // import Modal from '../Modal/Modal'
-
+import CloseIcon   from @material-ui/icons/Close
 import coverImage1 from '../../assets/Projects-Images/Barbers-Chair-ScreenShot.png'
 import coverImage2 from '../../assets/Projects-Images/BudgetTracker.png'
 import coverImage3 from '../../assets/Projects-Images/noteTaker.png'
@@ -110,19 +110,20 @@ const Projects = ()=> {
 
 
   ];
-  const [model, setmodel] = useState(false);
+  const [modal, setModal] = useState(false);
   const [tempimgSrc, setTempImgSrc] = useState('');
   const getImg=(imgSrc)=>{
-    setmodel(imgSrc);
-     setTempImgSrc(true )
+    setTempImgSrc(imgSrc);
+    setModal(true )
      
   }
-    
+        console.warn(data)
  
   return(
    <> <>
-   <div className={model? 'model open':'model'}>
-     <img src={tempimgSrc}/>
+   <div className={modal? 'modal open':'modal'}>
+     <img src={tempimgSrc}
+      onClick= {()=>setModal(false)}/>
    </div>
    </>
    
@@ -131,7 +132,10 @@ const Projects = ()=> {
       {data.map((item, index) => {
         return (
           <div className='pictures' key={index} onClick={() => getImg(item.imgSrc)}>
+            
             <img src={item.imgSrc} style={{ width: "100%" }} />
+            
+          
           </div>
         )
       })}
