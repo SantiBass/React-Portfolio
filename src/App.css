@@ -144,7 +144,7 @@ transform: scale(1);
   box-sizing: border-box;
   padding: 20px 0 20px;
   margin: 0 auto;
-  border: 5px solid white;
+  /* border: 5px solid rgb(5, 5, 5); */
   border-radius: 3px;
 } 
  
@@ -153,14 +153,23 @@ transform: scale(1);
 position: fixed;
 top: 10px;
 left: 10px;
-width: 4%;
+width: 2%;
 height:auto;
 padding: 5px;
 background-color: rgb(86, 92, 92);
 border-radius:5rem;
 
 }
+.closeBtn{
+  width: 5vw;
+  height: auto;
+  font-size: 20px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgb(112, 5, 5);
 
+}
 /* p{
 position:relative
 

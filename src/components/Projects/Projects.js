@@ -34,9 +34,9 @@ import coverImage9 from '../../assets/Projects-Images/The-Tech-Blog.png'
 //         <div className='card'>Budget Tracker<img src={coverImage2} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}}alt="cover"  /></div>
 //         <div className='card'>Note Taker<img src={coverImage3} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
 //         <div className='card'>Horiseon<img src={coverImage4} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-//         <div className='card'>Pawssword Generator<img src={coverImage5} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+//         <div className='card'>Password Generator<img src={coverImage5} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
 //         <div className='card'>Personal Portfolio_<img src={coverImage6} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-//         <div className='card'>Weather Dashoard<img src={coverImage7} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+//         <div className='card'>Weather Dashboard<img src={coverImage7} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
 //         <div className='card'>SYNTH Doctrina<img src={coverImage8} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
 //         <div className='card'>Tech Blog<img src={coverImage9} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
 
@@ -71,39 +71,41 @@ import coverImage9 from '../../assets/Projects-Images/The-Tech-Blog.png'
 const Projects = ()=> {
   let data= [
     {
-      name:1,
+      atl: "Barber's Chair",
       imgSrc: coverImage1,
+      url:"https://barbers-chair.herokuapp.com/"
     },
     {
-      name:2,
+      atl:"Budget Tracker",
       imgSrc: coverImage2,
     },
     {
-      name:3,
+      atl:"Note Taker",
       imgSrc: coverImage3,
     },
     {
-      name:4,
+      atl:"Horiseon",
       imgSrc: coverImage4,
     },
     {
-      name:5,
+      atl:"Password Generator",
       imgSrc: coverImage5,
     },
     {
-      name:6,
+      atl:"Personal Portfolio",
       imgSrc: coverImage6,
     },
     {
-      name:7,
+      atl:"Weather Dashboard",
       imgSrc: coverImage7,
     },
     {
-      name:8,
+      atl:"SYNTH Doctrina",
       imgSrc: coverImage8,
     },
     {
-      name:9,
+      atl:"Tech Blog",
+      url:"https://barbers-chair.herokuapp.com/",
       imgSrc: coverImage9,
     }
     
@@ -112,8 +114,8 @@ const Projects = ()=> {
   ];
   const [Modal, setModal] = useState(false);
   const [tempimgSrc, setTempImgSrc] = useState('');
-  const getImg=(imgSrc)=>{
-    setTempImgSrc(imgSrc);
+  const getImg=(imgSrc,url)=>{
+    setTempImgSrc(imgSrc,url);
     setModal(true )
      
   }
@@ -124,7 +126,11 @@ const Projects = ()=> {
    <div className={Modal? 'Modal open':'Modal'}>
      <img src={tempimgSrc}/>
      
+     <button  className='closeBtn' CloseIcon onClick={()=>setModal(false)}>Close</button>
      < CloseIcon onClick={()=>setModal(false)}/>
+     <button>
+       <a src={data.url}/>Visit
+     </button>
    </div>
    </>
    
@@ -135,7 +141,7 @@ const Projects = ()=> {
           <div className='pictures' key={index} onClick={() => getImg(item.imgSrc)}>
             
             <img src={item.imgSrc} style={{ width: "100%" }} />
-            
+            <div>hi</div>
           
           </div>
         )
