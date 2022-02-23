@@ -4,6 +4,7 @@ height: 15vh;
 
 }
 .projectSection{  
+  display:flexbox;
   font-size: 50px;
 }
 .contact{
@@ -32,7 +33,7 @@ padding-top: 10%;
 header{
   justify-content: space-between;
 
-  height:15vh;
+  height:25vh;
   padding-top: 3vw;
 }
 ul{
@@ -58,6 +59,15 @@ background-position: center;
 .Contact{
   background-image: url("./assets/cover/5.jpg");
   background-size: cover;
+
+}
+.card{
+opacity: 95%;
+margin: 10px;
+background-color: black;
+width: 15vw;
+height: auto;
+
 
 }
 /* p{
