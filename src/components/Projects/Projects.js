@@ -10,45 +10,54 @@ import coverImage8 from '../../assets/Projects-Images/SytnDoctrina.png'
 import coverImage9 from '../../assets/Projects-Images/The Tech Blog1.png'
 
 function Business() {
+
+  var projectBox = {
+    display: "flex",
+    flexWrap: "wrap",
+    maxWidth: "90vw",
+    // backgroundColor: "black",
+    // opacity:"90%",
+    color:"black",
+    fontSize:"20px",
+    borderRadius:"20px"
+  }
+
+
   return (
-    <section className='pageHeight Projects'>
-       
-        {/* <p>
+    <section className='pageHeight Projects' >
+
+      {/* <p>
             Description
         </p> */}
-        <div className='projectSection '>
-    
-        {/* <div className='card'><img src={coverImage1} className="my-2 projectPictures card-title" style={{width: "200px",borderRadius:"8px", margin:"10px"}}alt="cover" /></div> */}
+      <div style={projectBox} className='projectSection ' >
+
+        <div className='card'>Barbers Chair<img src={coverImage1} className="my-2 projectPictures card-title" style={{width: "200px",borderRadius:"8px", margin:"10px"}}alt="cover" /></div>
+        <div className='card'>Budget Tracker<img src={coverImage2} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}}alt="cover"  /></div>
+        <div className='card'>Note Taker<img src={coverImage3} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+        <div className='card'>Horiseon<img src={coverImage4} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+        <div className='card'>Pawssword Generator<img src={coverImage5} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+        <div className='card'>Personal Portfolio_<img src={coverImage6} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+        <div className='card'>Weather Dashoard<img src={coverImage7} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+        <div className='card'>SYNTH Doctrina<img src={coverImage8} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
+        <div className='card'>Tech Blog<img src={coverImage9} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
 
 
-
-        
-        {/* <div className='card'>xcvbvbxcvb<img src={coverImage2} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}}alt="cover"  /></div>
-        <div className='card'>xcvbvbxcvb<img src={coverImage3} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-        <div className='card'>xcvbvbxcvb<img src={coverImage4} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-        <div className='card'>xcvbvbxcvb<img src={coverImage5} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-        <div className='card'>xcvbvbxcvb<img src={coverImage6} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-        <div className='card'>xcvbvbxcvb<img src={coverImage7} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-        <div className='card'>xcvbvbxcvb<img src={coverImage8} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-        <div className='card'>xcvbvbxcvb<img src={coverImage9} className="my-2 projectPictures" style={{width: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div> */}
-
-
-  <div className="columns is-mobile is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd fondo">
-  <div className= "column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{width: "auto",borderRadius:"8px", margin:"10px", }} alt="cover" /><p>Teck Blog</p></div>
-  <div className= "column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{width: "auto",borderRadius:"8px", margin:"10px", }} alt="cover" /><p>Teck Blog</p></div>
-  <div className= "column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{width: "auto",borderRadius:"8px", margin:"10px", }} alt="cover" /><p>Teck Blog</p></div>
-  <div className= "column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{width: "auto",borderRadius:"8px", margin:"10px", }} alt="cover" /><p>Teck Blog</p></div>
-  <div className= "column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{width: "auto",borderRadius:"8px", margin:"10px", }} alt="cover" /><p>Teck Blog</p></div>
-  <div className= "column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{width: "auto",borderRadius:"8px", margin:"10px", }} alt="cover" /><p>Teck Blog</p></div>
-  <div className= "column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{width: "auto",borderRadius:"8px", margin:"10px", }} alt="cover" /><p>Teck Blog</p></div>
-  {/* <div className= "column" >2</div>
+        {/* <div className="columns is-mobile is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-quarter-fullhd fondo">
+          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ width: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div>
+          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ width: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div>
+          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ width: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div>
+          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ width: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div>
+          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ width: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div>
+          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ width: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div>
+          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ width: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div> */}
+          {/* <div className= "column" >2</div>
   <div className= "column">2</div>
   <div className= "column">3</div>
   <div className= "column">4</div> */}
-</div>
+        {/* </div> */}
 
-        </div>
-        
+      </div>
+
     </section>
   )
 }

@@ -4,7 +4,7 @@ height: 15vh;
 
 }
 .projectSection{  
-  display:flexbox;
+  flex-wrap: wrap;
   font-size: 50px;
 }
 .contact{
@@ -55,8 +55,10 @@ ul{
 background-image: url("./assets/cover/3.jpg");
 background-size: cover;
 background-position: center;
+
 }
 .Contact{
+  
   background-image: url("./assets/cover/5.jpg");
   background-size: cover;
 
@@ -64,9 +66,11 @@ background-position: center;
 .card{
 opacity: 95%;
 margin: 10px;
-background-color: black;
+background-color: rgb(71, 76, 84);
 width: 15vw;
 height: auto;
+color: white;
+
 
 
 }
