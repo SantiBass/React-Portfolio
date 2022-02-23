@@ -55,8 +55,12 @@ background-image: url("./assets/cover/3.jpg");
 background-size: cover;
 background-position: center;
 }
-.Contact{}
-p{
-position:relative
+.Contact{
+  background-image: url("./assets/cover/5.jpg");
+  background-size: cover;
 
 }
+/* p{
+position:relative
+
+} */
