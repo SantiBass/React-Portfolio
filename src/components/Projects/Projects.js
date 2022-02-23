@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 // import Modal from '../Modal/Modal'
 
 import coverImage1 from '../../assets/Projects-Images/Barbers-Chair-ScreenShot.png'
@@ -110,20 +110,32 @@ const Projects = ()=> {
 
 
   ];
-  
+  const [model, setmodel] = useState(false);
+  const [tempimgSrc, setTempImgSrc] = useState('');
+  const getImg=(imgSrc)=>{
+    setmodel(imgSrc);
+     setTempImgSrc(true )
+     
+  }
+    
  
   return(
-    
-    <div className=' gallery'>
-      
-      {data.map((item, index)=>{
+   <> <>
+   <div className={model? 'model open':'model'}>
+     <img src={tempimgSrc}/>
+   </div>
+   </>
+   
+   <div className=' gallery'>
+
+      {data.map((item, index) => {
         return (
-              <div className='pictures' key={index}>
-                <img src={item.imgSrc} style={{width:"100%"}}/>
-              </div>
+          <div className='pictures' key={index} onClick={() => getImg(item.imgSrc)}>
+            <img src={item.imgSrc} style={{ width: "100%" }} />
+          </div>
         )
       })}
-    </div>
+    </div></>
 
   )
 };
