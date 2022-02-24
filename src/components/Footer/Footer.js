@@ -1,8 +1,10 @@
 import React from 'react'
-import { GitHub } from '@mui/icons-material'
+import  GitHubIcon  from '@mui/icons-material/GitHub';
 import { LinkedIn } from '@mui/icons-material'
 import { Button } from '@material-ui/core'
-import { fontSize } from '@mui/system';
+import { height } from '@mui/system';
+
+
 
 
 function Footer() {
@@ -13,6 +15,8 @@ function Footer() {
     };
 const styles={
     footer1:{
+        backgroundColor: "black",
+        color:"white",
         with: '100%',
         height: 'auto',
         fontSize: "10px",
@@ -24,14 +28,19 @@ const styles={
         displayType: 'none',
         display: 'flex',
         justifyContent: "center",
-        justifyContent: 'space-around'
+        justifyContent: 'space-around',
+         fontSize: "100px"
+       
 
     },
     links:{
-
-        color: "white",
-        fontSize :"30px",
-        textDecoration: "none"
+        textDecoration: "none",
+        color:"white"
+    },
+    button:{
+        backgroundColor: "green",
+        width: "5vw",
+        height: ""
 
     }
     
@@ -45,27 +54,30 @@ const styles={
        
         <ul style={styles.list}>
         <li>
-        <Button href={links.gitHub}without rel="noopener noreferrer">
-            gitHub
+        <Button variant='contained'  color="primary"href={links.gitHub}without rel="noopener noreferrer" target="_blank">GitHub
+            <GitHubIcon />
         </Button>
+        <></>
         </li>
         <li>
-        <Button>
+        <Button variant="contained"  color="primary"href={links.linkedIn}without rel="noopener noreferrer" target="_blank">
             LinkedIn
+            <LinkedIn  variant="contained" color="primary"/>
         </Button>
         </li>
+
         <li>
-            <Button  style={styles.links}href="#">sibarraryan@gmail.com</Button> 
-        {/* <a >E-Mail to Max Mustermann</a>    Email */}
+            <button style={styles.button}></button>
+        </li>
+        <li >
+            <Button variant="contained" color="primary" style={styles.links}href="mailto:sibarraryan@gmail.com">sibarraryan@gmail.com</Button> 
+        
         </li>
         
 
 
         </ul>
-        foot
         
-        
-        Footer
    </div>
   )
 }
