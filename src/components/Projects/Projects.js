@@ -71,59 +71,51 @@ import coverImage9 from '../../assets/Projects-Images/The-Tech-Blog.png'
 const Projects = ()=> {
   let data= [
     {
-      id:"1",
       atl: "Barber's Chair",
       imgSrc: coverImage1,
       url:"https://barbers-chair.herokuapp.com/"
     },
     {
-      id:"2",
       atl:"Budget Tracker",
       url:"https://budget-tracker1-pwa.herokuapp.com/",
       imgSrc: coverImage2,
       
     },
     {
-      id:"3",
       atl:"Note Taker",
       url: "https://notetaker2021-1.herokuapp.com/",
       imgSrc: coverImage3,
     },
     {
-      id:"4",
       atl:"Horiseon",
       url:"https://santibass.github.io/Horiseon/",
       imgSrc: coverImage4,
     },
     {
-      id:"5",
       atl:"Password Generator",
       url: "https://santibass.github.io/Password-Generator/",
       imgSrc: coverImage5,
     },
     {
-      id:"6",
       atl:"Personal Portfolio",
       url: "https://santibass.github.io/Personal-Portfolio/",
       imgSrc: coverImage6,
       
     },
     {
-      id:"7",
       atl:"Weather Dashboard",
-      url: "https://github.com/SantiBass/Weather-Dashboard",
+      url: "https://santibass.github.io/Weather-Dashboard/",
       imgSrc: coverImage7,
     },
     {
-      id:"8",
       atl:"SYNTH Doctrina",
       url:"https://itsjustpeachy.github.io/SYNT-Doctrina/",
       imgSrc: coverImage8,
     },
     { 
-      id:"9",
+      
       atl:"Tech Blog",
-      url:"https://github.com/SantiBass/the-fire-pit-can-be-seen-using-this-tech-blog",
+      url:"https://teckblog.herokuapp.com/",
       imgSrc: coverImage9,
     }
     
@@ -137,17 +129,13 @@ const Projects = ()=> {
     setModal(true )
      
   }
-  const getUrl=(url)=>{
-    setTempImgSrc(url);
-    setModal(true)
-  }
-        // console.warn(data)
+  // console.warn(data)
  
   return(
    <> <>
    <div className={Modal? 'Modal open':'Modal'}>
      <img src={tempimgSrc}/>
-   
+     {/* <a href={}/> */}
      
      <button  className='closeBtn' CloseIcon onClick={()=>setModal(false)}>Close</button>
      < CloseIcon onClick={()=>setModal(false)}/>
@@ -157,14 +145,20 @@ const Projects = ()=> {
    <div className=' gallery'>
 
       {data.map((item, index) => {
-        return (
+          return (
           <>
+   
+          <button className='visitProject'><a href={data[index].url}>Visit</a> </button>
 
           <div className='pictures' key={index} onClick={() => getImg(item.imgSrc)}>
-            <img src={item.imgSrc} style={{ width: "100%" }} />
-          </div>
-          <div className='url2'>
-          <a href={data[0].url}>Visit</a>
+            <img src={item.imgSrc} style={{ width: "100%" }}/>
+              
+{/* <button className='url1' onClick={()=>getUrl(item.url)}>
+            </button> */}
+          {/* </div> */}
+          {/* <div className='url2' key={index} onClick={()=> getUrl(item.url)}>
+          <a href={data.url}/>Visit */}
+
           </div>
          
             </>

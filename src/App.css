@@ -170,6 +170,12 @@ border-radius:5rem;
   background-color: rgb(112, 5, 5);
 
 }
+.visitProject{
+  width: 100%;
+  background-color: rgb(46, 38, 38);
+  color: black;
+}
+
 /* p{
 position:relative
 
