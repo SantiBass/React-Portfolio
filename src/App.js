@@ -8,8 +8,8 @@ import Projects from './components/Projects/Projects';
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Resume from './components/Resume/Resume';
 import './App.css';
-import Resume from './components/Resume/Resume'
 function App() {
   // const [categories] = useState([
   //   {
@@ -37,6 +37,8 @@ function App() {
         <Route path="/projects" element={<Projects />} />
 
         <Route path="/contact" element={<Contact />} />
+        
+        <Route path="/resume" element={<Resume />} />
 
 
       </Routes>
@@ -45,13 +47,7 @@ function App() {
  
 
 
-    //   <div >
-    //   <Nav></Nav>
-    //  <main>
-    //    <Business></Business>
-    //    <About></About>
-    //  </main>
-    //   </div>
+
   );
 }
 

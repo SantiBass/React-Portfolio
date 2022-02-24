@@ -1,153 +1,160 @@
-.projectPictures{
-
-height: 15vh;
-
-}
-.projectSection{  
-  flex-wrap: wrap;
-  font-size: 50px;
-}
-.contact{
-
-height: 100%;
-
-
-}
-h1{
-  font-size: 70px;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  
-}
-.welcome{
-
-background-image: url("./assets/cover/logo.jpg");
-background-size:cover ;
-background-position:center;
-
-font-size: 200px;
-color: rgb(108, 109, 112);
-text-align: left;
-align-content: center;
-padding-top: 10%;
-
-}
-header{
-  justify-content: space-between;
-
-  height:25vh;
-  padding-top: 3vw;
-}
-ul{
-  /* padding-top :10px; */
-  font-size: 30px;
-  text-decoration: underline;
-  text-align: right;
-}
-.pageHeight{
-  height: 100vh;
-
-}
-.Home{}
-.About{
+.About {
   background-image: url("./assets/cover/1.jpg");
   background-size: cover;
   padding-left: 100px;
 }
-.Projects{
-background-image: url("./assets/cover/3.jpg");
-background-size: cover;
-background-position: center;
+
+.button {
+  margin-top: 50px;
+  background-color: rgb(79, 76, 73);
+  color: rgb(249, 237, 237);
+  height: 60px;
+  border: black;
+  text-decoration: none;
+
 
 }
-.Contact{
+
+.button2 {
+  background-color: gray;
+}
+
+.closeBtn {
+  width: 5vw;
+  height: auto;
+  font-size: 20px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgb(112, 5, 5);
+
+}
+
+.contact {
+  height: 100%;
+}
+
+.Contact {
   padding-left: 10%;
   background-image: url("./assets/cover/5.jpg");
   background-size: cover;
-height: 100vh;
-justify-content: left;
-color:white
-}
-
-.Resume{
-  background-image: url("./assets/cover/6.jpg");
-  background-size: cover;
   height: 100vh;
-  color:'white'
-
-}
-.card{
-opacity: 95%;
-margin: 10px;
-background-color: rgb(71, 76, 84);
-width: 15vw;
-height: auto;
-color: white;
-
-
-
+  justify-content: left;
+  color: white
 }
 
-.gallery{
+.card {
+  opacity: 95%;
+  margin: 10px;
+  background-color: rgb(71, 76, 84);
+  width: 15vw;
+  height: auto;
+  color: white;
+}
+.gallery {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   -webkit-column-width: 20%;
   -moz-column-width: 20%;
   column-count: 3;
   column-width: 20%;
-  padding: 0,12;
+  padding: 0, 12;
   margin: 5px;
 }
-.gallery .pictures{ 
--webkit-transition: all 300ms ease;
-transition: all 300ms ease;
-cursor: pointer;
-margin-bottom: 15px;
-}
 
-@media(max-width:900px){
-  .gallery{
- -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
-}
-}
-@media(max-width:300px){
-  .gallery{
- -webkit-column-count: 1;
-  -moz-column-count: 1;
-  column-count: 1;
-}
-}
-.gallery .pictures:hover{
+.gallery .pictures:hover {
   filter: opacity(.5);
 }
 
-.Modal{
-width: 100%;
-height: 100vh;
-position: fixed;
-top: 0;
-left:0;
-display: flex;
-justify-content:  center;
-align-items: center;
-background-color: rgb(15, 15, 15);
-transition: opacity .4s ease, visibility .4s ease,  transform .5s ease-in-out;
-visibility: hidden;
-opacity:0 ;
-transform: scale(0);
-overflow: hidden;
-z-index: 999;
+.gallery .pictures {
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  cursor: pointer;
+  margin-bottom: 15px;
 }
-.Modal.open{
-visibility: visible;
-opacity:1 ;
-transform: scale(1); 
+h1 {
+  color: rgb(174, 168, 168);
 
 }
 
-.Modal img{
+.projectPictures {
+
+  height: 15vh;
+
+}
+
+
+h1 {
+  font-size: 70px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+
+}
+
+header {
+  justify-content: space-between;
+
+  height: 25vh;
+  padding-top: 3vw;
+}
+
+.Home {}
+
+.pageHeight {
+  height: 100vh;
+
+}
+
+
+
+
+@media(max-width:900px) {
+  .gallery {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media(max-width:300px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+}
+
+.link {
+  font-size: 100vh;
+
+}
+
+.Modal {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(15, 15, 15);
+  transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
+}
+
+.Modal.open {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+
+}
+
+.Modal img {
   width: auto;
   max-width: 100%;
   height: auto;
@@ -159,57 +166,82 @@ transform: scale(1);
   margin: 0 auto;
   /* border: 5px solid rgb(5, 5, 5); */
   border-radius: 3px;
-} 
- 
-
-.Modal.open svg{
-position: fixed;
-top: 10px;
-left: 10px;
-width: 2%;
-height:auto;
-padding: 5px;
-background-color: rgb(86, 92, 92);
-border-radius:5rem;
-
 }
-.closeBtn{
-  width: 5vw;
-  height: auto;
-  font-size: 20px;
+
+
+.Modal.open svg {
   position: fixed;
-  bottom: 10px;
+  top: 10px;
   left: 10px;
-  background-color: rgb(112, 5, 5);
+  width: 2%;
+  height: auto;
+  padding: 5px;
+  background-color: rgb(86, 92, 92);
+  border-radius: 5rem;
 
 }
-.visitProject{
+
+
+.Projects {
+  background-image: url("./assets/cover/3.jpg");
+  background-size: cover;
+  height: auto;
+
+}
+.Resume {
+  background-image: url("./assets/cover/6.jpg");
+  background-size: cover;
+  color: 'white'
+
+}
+
+.title {
+  padding-top: 50px;
+  font-size:8rem;
+  color: rgb(180, 180, 218);
+  padding-left: 5%;
+  
+}
+@media(min-width: 1400px){
+  .span .title{
+    font-size:  8rem;
+  }
+}
+@media(max-width: 650px){
+  .span .title{
+font-size: 30px;
+  }
+
+}
+.span{
+  color: #7d7676;
+}
+
+
+ul {
+  /* padding-top :10px; */
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: right;
+}
+
+.visitProject {
   width: 100%;
   background-color: rgb(46, 38, 38);
   color: black;
 }
-.link{
-font-size: 100vh;
 
+
+.welcome {
+  background-image: url("./assets/cover/logo.jpg");
+  background-size: cover;
+  background-position: center;
+  font-size: 200px;
+  color: rgb(108, 109, 112);
+  text-align: left;
+  align-content: center;
+  padding-top: 10%;
 }
-.button{
-  margin-top: 50px;
-background-color: rgb(79, 76, 73);
-color: rgb(249, 237, 237);
-height: 60px;
-border: black;
-text-decoration: none;
-
-
+.resumeBody{
+  text-align: center;
 }
-.button2{
-  background-color: gray;
-  
-}
-h1{color: rgb(174, 168, 168);
-
-}
-/* p{
-position:relative
-
-} */

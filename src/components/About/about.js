@@ -4,7 +4,7 @@ function About() {
     return (
       
         <section className='my-5 About '>
-          <h1 className='picTitle'>Santiago Ibarra Ryan</h1>
+         <div className='title'>  <span className='span'>Santiago</span>Ibarra Ryan</div>
           
           <img src={coverImage} className="my-2" style={{width: "35%",borderRadius:"8px"}} alt="cover" />
         

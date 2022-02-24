@@ -11,64 +11,8 @@ import coverImage7 from '../../assets/Projects-Images/santibass.github.io_Weathe
 import coverImage8 from '../../assets/Projects-Images/SytnDoctrina.png'
 import coverImage9 from '../../assets/Projects-Images/The-Tech-Blog.png'
 
-
-// function Business() {
-
-//   var projectBox = {
-//     display: "flex",
-//     flexWrap: "wrap",
-//     maxWnameth: "90vw",
-//     // backgroundColor: "black",
-//     // opacity:"90%",
-//     color:"black",
-//     fontSize:"20px",
-//     borderRadius:"20px"
-//   }
-
-
-//   return (
-//     <section className='pageHeight Projects' >
-//       <div style={projectBox} className='projectSection ' >
-
-//         <div className='card'>Barbers Chair<img src={coverImage1} className="my-2 projectPictures card-title" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}}alt="cover" /></div>
-//         <div className='card'>Budget Tracker<img src={coverImage2} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}}alt="cover"  /></div>
-//         <div className='card'>Note Taker<img src={coverImage3} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-//         <div className='card'>Horiseon<img src={coverImage4} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-//         <div className='card'>Password Generator<img src={coverImage5} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-//         <div className='card'>Personal Portfolio_<img src={coverImage6} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-//         <div className='card'>Weather Dashboard<img src={coverImage7} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-//         <div className='card'>SYNTH Doctrina<img src={coverImage8} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-//         <div className='card'>Tech Blog<img src={coverImage9} className="my-2 projectPictures" style={{wnameth: "200px",borderRadius:"8px", margin:"10px"}} alt="cover" /></div>
-
-{/* ===================================== */}
-
-
-
-
-
-        {/* <div className="columns is-mobile is-two-thirds-tablet is-half-desktop is-one-third-wnameescreen is-one-quarter-fullhd fondo">
-          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ wnameth: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div>
-          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ wnameth: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div>
-          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ wnameth: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div>
-          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ wnameth: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div>
-          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ wnameth: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div>
-          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ wnameth: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div>
-          <div className="column" className='card'><img src={coverImage9} className="my-2 projectPictures" style={{ wnameth: "auto", borderRadius: "8px", margin: "10px", }} alt="cover" /><p>Teck Blog</p></div> */}
-          {/* <div className= "column" >2</div>
-  <div className= "column">2</div>
-  <div className= "column">3</div>
-  <div className= "column">4</div> */}
-        {/* </div> */}
-
-      // </div>
-
-    // </section>
-  // )
-// }
-
-// export default Business
-
 const Projects = ()=> {
+  
   let data= [
     {
       atl: "Barber's Chair",
@@ -118,21 +62,20 @@ const Projects = ()=> {
       url:"https://teckblog.herokuapp.com/",
       imgSrc: coverImage9,
     }
-    
-
-
   ];
   const [Modal, setModal] = useState(false);
   const [tempimgSrc, setTempImgSrc] = useState(0);
   const getImg=(imgSrc)=>{
     setTempImgSrc(imgSrc);
     setModal(true )
-     
   }
   // console.warn(data)
- 
   return(
-   <> <>
+    <>
+   <div className='Projects'>
+     <div className='title'>
+       <span className='span'>Pro</span>jects
+     </div>
    <div className={Modal? 'Modal open':'Modal'}>
      <img src={tempimgSrc}/>
      {/* <a href={}/> */}
@@ -140,31 +83,24 @@ const Projects = ()=> {
      <button  className='closeBtn' CloseIcon onClick={()=>setModal(false)}>Close</button>
      < CloseIcon onClick={()=>setModal(false)}/>
    </div>
-   </>
+   
    
    <div className=' gallery'>
 
       {data.map((item, index) => {
           return (
           <>
-   
           <button className='visitProject'><a href={data[index].url}>Visit</a> </button>
 
           <div className='pictures' key={index} onClick={() => getImg(item.imgSrc)}>
             <img src={item.imgSrc} style={{ width: "100%" }}/>
-              
-{/* <button className='url1' onClick={()=>getUrl(item.url)}>
-            </button> */}
-          {/* </div> */}
-          {/* <div className='url2' key={index} onClick={()=> getUrl(item.url)}>
-          <a href={data.url}/>Visit */}
-
           </div>
-         
-            </>
+         </>
         )
       })}
-    </div></>
+    </div>
+   </div>
+    </>
 
   )
 };
