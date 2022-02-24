@@ -1,4 +1,5 @@
 import React from 'react'
+import {validateEmail} from "../../utils/helpers"
 // import coverImage from "../../assets/cover/3.jpg"
 function Contact() {
   return (

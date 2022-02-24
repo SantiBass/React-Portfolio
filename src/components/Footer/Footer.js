@@ -70,7 +70,7 @@ const styles={
             <button style={styles.button}></button>
         </li> */}
         <li >
-            <Button   style={styles.links}href="mailto:sibarraryan@gmail.com">sibarraryan@gmail.com</Button> 
+            <Button style={{width:"700px"}}variant="contained" color="primary" style={styles.links}href="mailto:sibarraryan@gmail.com">sibarraryan@gmail.com</Button> 
         
         </li>
         
