@@ -2,7 +2,7 @@ import React from 'react'
 import  GitHubIcon  from '@mui/icons-material/GitHub';
 import { LinkedIn } from '@mui/icons-material'
 import { Button } from '@material-ui/core'
-import { height } from '@mui/system';
+
 
 
 
@@ -54,23 +54,23 @@ const styles={
        
         <ul style={styles.list}>
         <li>
-        <Button variant='contained'  color="primary"href={links.gitHub}without rel="noopener noreferrer" target="_blank">GitHub
-            <GitHubIcon />
+        <Button variant='contained'  href={links.gitHub}without rel="noopener noreferrer" target="_blank">GitHub
+            <GitHubIcon style={{width:'100px',height:"50px"}} />
         </Button>
         <></>
         </li>
         <li>
-        <Button variant="contained"  color="primary"href={links.linkedIn}without rel="noopener noreferrer" target="_blank">
+        <Button variant="contained"  href={links.linkedIn}without rel="noopener noreferrer" target="_blank">
             LinkedIn
-            <LinkedIn  variant="contained" color="primary"/>
+            <LinkedIn  style={{width:'100px',height:"50px"}}/>
         </Button>
         </li>
 
-        <li>
+        {/* <li>
             <button style={styles.button}></button>
-        </li>
+        </li> */}
         <li >
-            <Button variant="contained" color="primary" style={styles.links}href="mailto:sibarraryan@gmail.com">sibarraryan@gmail.com</Button> 
+            <Button   style={styles.links}href="mailto:sibarraryan@gmail.com">sibarraryan@gmail.com</Button> 
         
         </li>
         
