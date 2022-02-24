@@ -44,8 +44,16 @@ const styles={
     <div style={styles.footer1} >
        
         <ul style={styles.list}>
-        <li><Button />gitHub</li>
-        <li>LinkedIn</li>
+        <li>
+        <Button href={links.gitHub}without rel="noopener noreferrer">
+            gitHub
+        </Button>
+        </li>
+        <li>
+        <Button>
+            LinkedIn
+        </Button>
+        </li>
         <li>
             <Button  style={styles.links}href="#">sibarraryan@gmail.com</Button> 
         {/* <a >E-Mail to Max Mustermann</a>    Email */}
