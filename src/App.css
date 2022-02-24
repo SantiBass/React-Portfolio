@@ -58,10 +58,11 @@ background-position: center;
 
 }
 .Contact{
-  
+  padding-left: 10%;
   background-image: url("./assets/cover/5.jpg");
   background-size: cover;
-
+height: 100vh;
+justify-content: left;
 }
 .card{
 opacity: 95%;

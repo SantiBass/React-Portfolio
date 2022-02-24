@@ -32,6 +32,12 @@ function Nav() {
       </h2>
       <nav>
         <ul className="flex-row ">
+        <li className='gitHubIcon mx-2'>
+        <a href="https://github.com/SantiBass?tab=repositories"i class="fa fa-github" aria-hidden="true"></a>
+        </li>
+        <li className='linkedInIcon mx-2'>
+        <a href="https://www.linkedin.com/in/santiago-ibarra-ryan-946044125/"i class="fa fa-linkedin-square" aria-hidden="true"></a>
+        </li>
           <li className="mx-2">
             <NavLink to="/home" onClick={() => handleClick()}>
               Home
@@ -53,6 +59,7 @@ function Nav() {
               Contact
             </NavLink>
           </li>
+           
           {
             categories.map((category) => (
               <li className="mx-1" key={category.name} >
