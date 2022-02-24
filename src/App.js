@@ -9,7 +9,7 @@ import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import './App.css';
-
+import Resume from './components/Resume/Resume'
 function App() {
   // const [categories] = useState([
   //   {

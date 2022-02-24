@@ -54,9 +54,13 @@ function Nav() {
             </NavLink>
           </li>
           <li className={"mx-2"}>
-            
             <NavLink to="/contact" onClick={() => handleClick()}>
               Contact
+            </NavLink>
+          </li>
+          <li className={"mx-2"}>
+            <NavLink to="/resume" onClick={() => handleClick()}>
+              Resume
             </NavLink>
           </li>
            

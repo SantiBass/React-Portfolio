@@ -6,7 +6,7 @@ function About() {
         <section className='my-5 About '>
           <h1 className='picTitle'>Santiago Ibarra Ryan</h1>
           
-          <img src={coverImage} className="my-2" style={{width: "25%",borderRadius:"8px"}} alt="cover" />
+          <img src={coverImage} className="my-2" style={{width: "35%",borderRadius:"8px"}} alt="cover" />
         
         
           <p>Description of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me hereDescription of me here</p>

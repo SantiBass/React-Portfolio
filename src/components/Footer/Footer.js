@@ -50,28 +50,27 @@ const styles={
     
 
 
-    <div style={styles.footer1} >
+    <div className='footer1'  >
        
         <ul style={styles.list}>
         <li>
-        <Button variant='contained'  href={links.gitHub}without rel="noopener noreferrer" target="_blank">GitHub
+        <button className='button large  is-rounded'  href={links.gitHub}without rel="noopener noreferrer" target="_blank">GitHub
             <GitHubIcon style={{width:'100px',height:"50px"}} />
-        </Button>
+        </button>
         <></>
         </li>
         <li>
-        <Button variant="contained"  href={links.linkedIn}without rel="noopener noreferrer" target="_blank">
+        <button className='button large  is-rounded' href={links.linkedIn}without rel="noopener noreferrer" target="_blank">
             LinkedIn
             <LinkedIn  style={{width:'100px',height:"50px"}}/>
-        </Button>
+        </button>
         </li>
 
         {/* <li>
             <button style={styles.button}></button>
         </li> */}
-        <li >
-            <Button style={{width:"700px"}}variant="contained" color="primary" style={styles.links}href="mailto:sibarraryan@gmail.com">sibarraryan@gmail.com</Button> 
-        
+        <li  >
+            <button className='button large  is-rounded'  href="mailto:sibarraryan@gmail.com">sibarraryan@gmail.com</button> 
         </li>
         
 

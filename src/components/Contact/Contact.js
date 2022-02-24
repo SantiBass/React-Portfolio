@@ -20,23 +20,23 @@ function Contact() {
     }
   }
   return (
-      <section className='Contact'>
-        <h1 >Contact me</h1>
-        <form id="contact-form">
+    <section className='Contact'>
+        <h1 className=''>Contact me</h1>
+        <form onSubmit={handleSubmit} id ="contact-form">
           <div>
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name"></label>
             <input placeholder='Enter your name' type="text" name="name" />
           </div>
           <div>
-            <label htmlFor="email" >Email address:</label>
+            <label htmlFor="email" ></label>
           
             <input  onChange= {handleInput} placeholder='Enter your email' type='email' name='email' value={state.email} />
           </div>
           <div>
-            <label htmlFor="message">Message:</label>
-            <textarea name="message" rows="5" />
+            <label htmlFor="message"></label>
+            <textarea placeholder='Enter our text here' name="message" rows="5" />
           </div>
-          <button type="submit">Submit</button>
+          <button className='button2 is-normal ' type="submit">Submit</button>
         </form>
       </section>
       );
