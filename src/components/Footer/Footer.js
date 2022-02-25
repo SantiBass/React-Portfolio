@@ -1,8 +1,7 @@
 import React from 'react'
-import  GitHubIcon  from '@mui/icons-material/GitHub';
+import  GitHubIcon  from '@mui/icons-material/GitHub'
 import { LinkedIn } from '@mui/icons-material'
-import { Button } from '@material-ui/core'
-
+import {Icon} from '@iconify/react'
 
 
 
@@ -54,6 +53,13 @@ const styles={
        
         <ul style={styles.list}>
         <li>
+        <button className='button large  is-rounded'  href={links.gitHub}without rel="noopener noreferrer" target="_blank">stackOverflow
+       < Icon icon="mdi:stack-overflow" />
+        {/* <stackOverflow style={{width:'100px',height:"50px"}} /> */}
+        </button>
+        <></>
+        </li>
+        <li>
         <button className='button large  is-rounded'  href={links.gitHub}without rel="noopener noreferrer" target="_blank">GitHub
             <GitHubIcon style={{width:'100px',height:"50px"}} />
         </button>
@@ -62,7 +68,7 @@ const styles={
         <li>
         <button className='button large  is-rounded' href={links.linkedIn}without rel="noopener noreferrer" target="_blank">
             LinkedIn
-            <LinkedIn  style={{width:'100px',height:"50px"}}/>
+            <LinkedIn  style={{width:'20px',height:"20px"}}/>
         </button>
         </li>
 

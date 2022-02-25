@@ -10,7 +10,8 @@
   color: rgb(249, 237, 237);
   height: 60px;
   border: black;
-  text-decoration: none;
+  font-size: 25px;
+  /* width: auto; */
 
 
 }
@@ -51,6 +52,10 @@
   height: auto;
   color: white;
 }
+
+/* .footer1{
+  size: 100px;
+} */
 .gallery {
   -webkit-column-count: 3;
   -moz-column-count: 3;
@@ -86,15 +91,28 @@ h1 {
 
 h1 {
   font-size: 70px;
-  color: rgb(0, 0, 0);
+  color: rgb(165, 165, 165);
   font-weight: bold;
-
+}
+h3{
+  text-decoration: underline;
+  font-size: 50px;
+}
+.hook{
+  justify-content: center;
+  margin-right: 50px;
+  color: #000000;
+  font-size: 50px;
+  
+}
+.resumeList{
+  font-size: 50px;
+  padding-left: 50px ;
 }
 
 header {
   justify-content: space-between;
-
-  height: 25vh;
+  height: 15vh;
   padding-top: 3vw;
 }
 
@@ -145,6 +163,9 @@ header {
   transform: scale(0);
   overflow: hidden;
   z-index: 999;
+}
+li{
+  font-size: 30px;
 }
 
 .Modal.open {
@@ -216,7 +237,11 @@ font-size: 30px;
 .span{
   color: #7d7676;
 }
-
+.stackOverflow{
+  color :rgb(0, 0, 0);
+  background-color: white;
+  width: 50px;
+}
 
 ul {
   /* padding-top :10px; */
@@ -236,7 +261,7 @@ ul {
   background-image: url("./assets/cover/logo.jpg");
   background-size: cover;
   background-position: center;
-  font-size: 200px;
+  font-size: 100px;
   color: rgb(108, 109, 112);
   text-align: left;
   align-content: center;

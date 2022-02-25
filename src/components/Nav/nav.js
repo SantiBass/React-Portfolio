@@ -32,6 +32,9 @@ function Nav() {
       </h2>
       <nav>
         <ul className="flex-row ">
+        <li className='stackOf mx-2'>
+        <a href="https://stackoverflow.com/users/16930766/santiago-ibarra" alt="Stack-Overflow-Logo" i class="fa-brands fa-stack-overflow" aria-hidden="true"></a>
+        </li>
         <li className='gitHubIcon mx-2'>
         <a href="https://github.com/SantiBass?tab=repositories" alt="GitHub-Logo"i class="fa fa-github" aria-hidden="true"></a>
         </li>
