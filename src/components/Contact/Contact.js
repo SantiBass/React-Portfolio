@@ -12,7 +12,7 @@ function Contact() {
   const handleSubmit = (event) => {
     event.preventDefault();
     if (validateEmail(state.email)) {
-      alert("Email is correct")
+    
     } else {
       alert("Invalid email")
     }
