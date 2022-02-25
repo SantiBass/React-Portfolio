@@ -1,6 +1,57 @@
 
 
+# React Portfolio
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Description.
+### "React Portfolio". This is the new knowledge put into practice. This portfolio was built with "[React](https://reactjs.org/)". I this portfolio contains a simple concept layout which I have to create. This simple layout is composed by a navigation bar at the top, a body in the middle of the page for content, and the footer with some icons.
+## Table of Content
+* [Installation](#installation)
+* [License](#license)
+* [Usage](#usage)
+* [Credits](#credits)
+* [Test](#test)
+* [GitHub](#github)
+* [Screenshots](#screenshots)
+* [Questions](#questions)
+
+## Installation
+### N/A
+
+## License
+#### This project is licensed by:  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+### You can find information about MIT license here: [MIT License.](https://choosealicense.com/licenses/mit/)
+
+## Usage
+#### Using this application is very simple since it can be used as a regular website. The buttons in the navigation bar would lead user to its respective page. For example  clicking on the "Projects" button would lead to the projects' section.
+
+
+## Credits
+#### TA's and AskBSC. They provided valuable contributions to this project.
+
+## Test
+
+### N/A
+
+## GitHub
+
+### You can visit my GitHub: [SantiBass](https://github.com/SantiBass)
+
+## Screenshots.
+#### Here are some screenshots of the application.
+##### Screenshot of the main page.
+![The Tech Blog1](https://user-images.githubusercontent.com/90415841/149456673-759b1a40-554b-4306-85f4-927e2df005f3.png)
+#### Screenshot of the login/signup page 
+![The Tech Blog2](https://user-images.githubusercontent.com/90415841/149456671-bca6d709-e65c-4cb9-b643-1b5ba345ea64.png)
+#### Screenshot of commenting on a post.
+![The Tech Blog3](https://user-images.githubusercontent.com/90415841/149456679-8c80c1b5-d915-4e16-ad39-a90ca0fec8c0.png)
+
+## Questions
+### If you have any questions, please send me an email @ sibarraryan@gmail.com . 
+### You can visit my GitHub: [SantiBass.](https://github.com/SantiBass)
+<!-- ### Also, you can put this application into action by using this link: [React-Portfolio]()  . -->
 
 
 
