@@ -67,7 +67,7 @@ function Nav() {
             </NavLink>
           </li>
            
-          {
+          {/* {
             categories.map((category) => (
               <li className="mx-1" key={category.name} >
                 <NavLink to={"/" + category.name} onClick={() => { handleClick(); }}>
@@ -75,7 +75,7 @@ function Nav() {
                 </NavLink>
               </li>
             ))
-          }
+          } */}
         </ul>
       </nav>
     </header>

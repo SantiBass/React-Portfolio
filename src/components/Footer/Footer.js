@@ -1,5 +1,5 @@
 import React from 'react'
-import  GitHubIcon  from '@mui/icons-material/GitHub'
+import  GitHubIcon  from '@mui/icons-material/GitHub';
 import { LinkedIn } from '@mui/icons-material'
 import {Icon} from '@iconify/react'
 
@@ -53,22 +53,22 @@ const styles={
        
         <ul style={styles.list}>
         <li>
-        <button className='button large  is-rounded'  href={links.gitHub}without rel="noopener noreferrer" target="_blank">stackOverflow
+        <button className='button large  is-rounded'> <a href={links.gitHub}without rel="noopener noreferrer" target="_blank">stackOverflow</a>
        < Icon icon="mdi:stack-overflow" />
-        {/* <stackOverflow style={{width:'100px',height:"50px"}} /> */}
+        <stackOverflow style={{width:'100px',height:"50px"}} />
         </button>
         <></>
         </li>
         <li>
-        <button className='button large  is-rounded'  href={links.gitHub}without rel="noopener noreferrer" target="_blank">GitHub
+        <button className='button large  is-rounded'  ><a href={links.gitHub}without rel="noopener noreferrer" target="_blank">GitHub</a>
             <GitHubIcon style={{width:'100px',height:"50px"}} />
         </button>
         <></>
         </li>
         <li>
-        <button className='button large  is-rounded' href={links.linkedIn}without rel="noopener noreferrer" target="_blank">
-            LinkedIn
-            <LinkedIn  style={{width:'20px',height:"20px"}}/>
+        <button className='button large  is-rounded' ><a href={links.linkedIn}without rel="noopener noreferrer" target="_blank">LinkedIn</a>
+            
+            <LinkedIn  style={{width:'90px',height:"50px"}}/>
         </button>
         </li>
 
@@ -76,7 +76,7 @@ const styles={
             <button style={styles.button}></button>
         </li> */}
         <li  >
-            <button className='button large  is-rounded'  href="mailto:sibarraryan@gmail.com">sibarraryan@gmail.com</button> 
+            <button className='button large  is-rounded' ><a  href="mailto:sibarraryan@gmail.com">sibarraryan@gmail.com</a></button> 
         </li>
         
 
