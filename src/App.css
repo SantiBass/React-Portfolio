@@ -99,12 +99,18 @@ h3{
   font-size: 50px;
 }
 .hook{
-  justify-content: center;
+
   margin-right: 50px;
-  color: #000000;
+  color: #6f6c6c;
   font-size: 50px;
+  padding-left: 50px;
   
 }
+/* .hook2{color: white;
+background-color: black;
+opacity:50%;}
+.hook3{color:rgb(0, 0, 0);
+background-color: rgb(75, 75, 75);} */
 .resumeList{
   font-size: 50px;
   padding-left: 50px ;
@@ -265,7 +271,7 @@ ul {
   color: rgb(108, 109, 112);
   text-align: left;
   align-content: center;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 .resumeBody{
   text-align: center;
