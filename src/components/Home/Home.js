@@ -19,15 +19,15 @@ function Home() {
           <li className='hook'>Web Developer</li>
           <li className='hook'>Musician</li>
         </ul>
-        <div >hi
+        <div >
           <ul style={{ justifyContent: 'center' }} className='flex-row '>
             <li className='hook'>
-              <button className='button large  is-rounded'> <a href={links.gitHub} without rel="noopener noreferrer" target="_blank"></a>
+              <button className='button large  is-rounded'> <a href={links.gitHub} without rel="noopener noreferrer" target="_blank">GitHub</a>
                 <GitHubIcon style={{ width: '100px', height: "50px" }} />
               </button>
             </li>
             <li className='hook'>
-              <button className='button large  is-rounded'> <a href={links.linkedIn} without rel="noopener noreferrer" target="_blank"> </a>
+              <button className='button large  is-rounded'> <a href={links.linkedIn} without rel="noopener noreferrer" target="_blank"> LinkedIn</a>
                
                 <LinkedIn style={{ width: '100px', height: "50px" }} />
               </button>

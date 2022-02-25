@@ -52,7 +52,7 @@ const styles={
     <div className='footer1'  >
        
         <ul style={styles.list}>
-        <li>
+        <li  >
         <button className='button large  is-rounded'> <a href={links.gitHub}without rel="noopener noreferrer" target="_blank">stackOverflow</a>
        < Icon icon="mdi:stack-overflow" />
         <stackOverflow style={{width:'100px',height:"50px"}} />
@@ -71,11 +71,7 @@ const styles={
             <LinkedIn  style={{width:'90px',height:"50px"}}/>
         </button>
         </li>
-
-        {/* <li>
-            <button style={styles.button}></button>
-        </li> */}
-        <li  >
+        <li>
             <button className='button large  is-rounded' ><a  href="mailto:sibarraryan@gmail.com">sibarraryan@gmail.com</a></button> 
         </li>
         
