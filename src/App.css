@@ -12,8 +12,6 @@
   border: black;
   font-size: 25px;
   width: auto;
-
-
 }
 
 .button2 {
@@ -29,10 +27,6 @@
   left: 10px;
   background-color: rgb(112, 5, 5);
 
-}
-
-.contact {
-  height: 100%;
 }
 
 .Contact {
@@ -53,9 +47,6 @@
   color: white;
 }
 
-/* .footer1{
-  size: 100px;
-} */
 .gallery {
   -webkit-column-count: 3;
   -moz-column-count: 3;
@@ -77,6 +68,7 @@
   cursor: pointer;
   margin-bottom: 15px;
 }
+
 h1 {
   color: rgb(174, 168, 168);
 
@@ -94,26 +86,29 @@ h1 {
   color: rgb(165, 165, 165);
   font-weight: bold;
 }
-h3{
+
+h3 {
   text-decoration: underline;
   font-size: 50px;
 }
-.hook{
+
+.hook {
 
   margin-right: 50px;
   color: #6f6c6c;
   font-size: 50px;
   padding-left: 50px;
-  
+
 }
+
 /* .hook2{color: white;
 background-color: black;
 opacity:50%;}
 .hook3{color:rgb(0, 0, 0);
 background-color: rgb(75, 75, 75);} */
-.resumeList{
+.resumeList {
   font-size: 50px;
-  padding-left: 50px ;
+  padding-left: 50px;
 }
 
 header {
@@ -170,7 +165,8 @@ header {
   overflow: hidden;
   z-index: 999;
 }
-li{
+
+li {
   font-size: 30px;
 }
 
@@ -208,13 +204,16 @@ li{
 
 }
 
-
 .Projects {
   background-image: url("./assets/cover/3.jpg");
   background-size: cover;
   height: auto;
 
 }
+p{
+  font-size: 30px;
+}
+
 .Resume {
   background-image: url("./assets/cover/6.jpg");
   background-size: cover;
@@ -224,27 +223,31 @@ li{
 
 .title {
   padding-top: 50px;
-  font-size:8rem;
+  font-size: 8rem;
   color: rgb(180, 180, 218);
   padding-left: 5%;
-  
+
 }
-@media(min-width: 1400px){
-  .span .title{
-    font-size:  8rem;
+
+@media(min-width: 1400px) {
+  .span .title {
+    font-size: 8rem;
   }
 }
-@media(max-width: 650px){
-  .span .title{
-font-size: 30px;
+
+@media(max-width: 650px) {
+  .span .title {
+    font-size: 30px;
   }
 
 }
-.span{
+
+.span {
   color: #7d7676;
 }
-.stackOverflow{
-  color :rgb(0, 0, 0);
+
+.stackOverflow {
+  color: rgb(0, 0, 0);
   background-color: white;
   width: 50px;
 }
@@ -273,6 +276,7 @@ ul {
   align-content: center;
   padding-top: 5%;
 }
-.resumeBody{
+
+.resumeBody {
   text-align: center;
 }
