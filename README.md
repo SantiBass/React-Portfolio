@@ -39,15 +39,6 @@
 
 ### You can visit my GitHub: [SantiBass](https://github.com/SantiBass)
 
-
-#### Here are some screenshots of the application.
-##### Screenshot of the main page.
-![The Tech Blog1](https://user-images.githubusercontent.com/90415841/149456673-759b1a40-554b-4306-85f4-927e2df005f3.png)
-#### Screenshot of the login/signup page 
-![The Tech Blog2](https://user-images.githubusercontent.com/90415841/149456671-bca6d709-e65c-4cb9-b643-1b5ba345ea64.png)
-#### Screenshot of commenting on a post.
-![The Tech Blog3](https://user-images.githubusercontent.com/90415841/149456679-8c80c1b5-d915-4e16-ad39-a90ca0fec8c0.png)
-
 # Screenshots
 ## Here is a screenshot of the "Home" page.
 ![Home](https://user-images.githubusercontent.com/90415841/155798864-265ffe3c-153e-4dcd-94a2-e04cbd9c4b90.png)
