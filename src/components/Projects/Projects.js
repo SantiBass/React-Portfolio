@@ -77,7 +77,7 @@ const Projects = ()=> {
        <span className='span'>Pro</span>jects
      </div>
    <div className={Modal? 'Modal open':'Modal'}>
-     <img src={tempimgSrc}/>
+     <img src={tempimgSrc} alt="project-picture"/>
      {/* <a href={}/> */}
      
      <button  className='closeBtn' CloseIcon onClick={()=>setModal(false)}>Close</button>
@@ -95,8 +95,8 @@ const Projects = ()=> {
           <div className='pictures' key={index} onClick={() => getImg(item.imgSrc)}>
             <img src={item.imgSrc} style={{ width: "100%" }}/>
           </div>
-         </>
-        )
+         </> 
+        ) 
       })}
     </div>
    </div>

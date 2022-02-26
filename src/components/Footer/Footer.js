@@ -21,7 +21,7 @@ function Footer() {
             displayType: 'none',
             display: 'flex',
             justifyContent: "center",
-            justifyContent: 'space-around',
+           
             fontSize: "100px"
         },
         links: {
