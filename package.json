@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://SantiBass.github.io/React-Portfolio", 
+  "homepage": "https://SantiBass.github.io/React-Portfolio",
   "private": true,
   "dependencies": {
     "@emotion/core": "^10.1.1",
@@ -22,7 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -b newMain -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@iconify/react": "^3.1.3",
-    "css-loader": "^6.6.0"
+    "css-loader": "^6.6.0",
+    "gh-pages": "^3.2.3"
   }
 }
