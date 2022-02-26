@@ -14,7 +14,7 @@ function Nav() {
             {" "}
             💻
           </span>{" "}
-          Let's Code!
+          Let's Code! 
         </a>
       </h2>
       <nav>
