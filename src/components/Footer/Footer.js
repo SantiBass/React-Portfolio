@@ -7,6 +7,7 @@ function Footer() {
     const links = {
         gitHub: `https://github.com/SantiBass`,
         linkedIn: `https://www.linkedin.com/in/santiago-ibarra-ryan-946044125/`,
+        stackOverflow:`https://stackoverflow.com/users/16930766/santiago-ibarra`
     };
     const styles = {
         footer1: {
@@ -39,7 +40,7 @@ function Footer() {
 
             <ul style={styles.list}>
                 <li  >
-                    <button className='button large  is-rounded'> <a href={links.gitHub} without rel="noopener noreferrer" target="_blank">stackOverflow</a>
+                    <button className='button large  is-rounded'> <a href={links.stackOverflow} without rel="noopener noreferrer" target="_blank">stackOverflow</a>
                         < Icon icon="mdi:stack-overflow" />
                         <stackOverflow style={{ width: '100px', height: "50px" }} />
                     </button>

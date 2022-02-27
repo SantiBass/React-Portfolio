@@ -14,16 +14,20 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        {/* <Route path="/home" element={<Home />} />
      
-        <Route path="/home" element={<Home />} />
+        <Route path="/home" element={<Home />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
       <Home/>
-      <Footer />
+      <About/>
+      <Projects/>
+      <Contact/>
+      <Resume/>
+      <Footer/>
     </Router>
   );
 }
