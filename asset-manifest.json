@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.6dbe377a.css",
-    "main.js": "./static/js/main.40da6c5b.js",
+    "main.css": "./static/css/main.7b564980.css",
+    "main.js": "./static/js/main.da9f363a.js",
     "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
     "static/media/5.jpg": "./static/media/5.27a03101a99063e37da1.jpg",
     "static/media/6.jpg": "./static/media/6.b2cd7b069902884554c6.jpg",
@@ -19,12 +19,12 @@
     "static/media/santibass.github.io_Password-Generator_.png": "./static/media/santibass.github.io_Password-Generator_.e699c2d832636a2eb58a.png",
     "static/media/noteTaker.png": "./static/media/noteTaker.0b9e92637b23ecc405b5.png",
     "index.html": "./index.html",
-    "main.6dbe377a.css.map": "./static/css/main.6dbe377a.css.map",
-    "main.40da6c5b.js.map": "./static/js/main.40da6c5b.js.map",
+    "main.7b564980.css.map": "./static/css/main.7b564980.css.map",
+    "main.da9f363a.js.map": "./static/js/main.da9f363a.js.map",
     "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dbe377a.css",
-    "static/js/main.40da6c5b.js"
+    "static/css/main.7b564980.css",
+    "static/js/main.da9f363a.js"
   ]
 }
