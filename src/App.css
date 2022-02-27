@@ -28,7 +28,17 @@
   background-color: rgb(112, 5, 5);
 
 }
-
+.picBackground{width: 50%;
+height: 1000px;
+}
+.coverImage{
+  background-image : url("../src/assets/cover/santibasslogo.jpg");
+ width: 20%;
+ height: auto;
+ position: absolute;
+ z-index: 1;
+ font-size: 200px;
+}
 .Contact {
   padding-left: 10%;
   background-image: url("./assets/cover/5.jpg");
