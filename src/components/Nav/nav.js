@@ -10,11 +10,11 @@ function Nav() {
     <header className="flex-row px-1 header">
       <h2>
         <a data-testid="link" href="/home">
-          <span role="img" aria-label="camera">
-            {" "}
-            💻
-          </span>{" "}
-          Let's Code! 
+            <NavLink to="/home" onClick={() => handleClick()}>
+             💻 Let's Code
+            </NavLink>
+          <li className="mx-2">
+          </li>
         </a>
       </h2>
       <nav>

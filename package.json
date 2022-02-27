@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
+  "homepage": ".", 
   "version": "0.1.0",
-  "homepage": "https://SantiBass.github.io/React-Portfolio", 
   "private": true,
   "dependencies": {
     "@emotion/core": "^10.1.1",
