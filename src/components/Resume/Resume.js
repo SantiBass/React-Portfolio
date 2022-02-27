@@ -26,22 +26,3 @@ function Resume() {
 }
 
 export default Resume
-{/* <section>
-hi
-<div className='Resume pageHeight title '><span className='span' >Res</span>ume
-</div>    
-
-
-<>
-<p></p>
- */}
-
-
-
-  
-
-
-
-// </>
-
-// </section>

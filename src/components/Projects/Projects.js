@@ -15,50 +15,50 @@ const Projects = ()=> {
   
   let data= [
     {
-      atl: "Barber's Chair",
+      alt: "Barber's Chair",
       imgSrc: coverImage1,
       url:"https://barbers-chair.herokuapp.com/"
     },
     {
-      atl:"Budget Tracker",
+      alt:"Budget Tracker",
       url:"https://budget-tracker1-pwa.herokuapp.com/",
       imgSrc: coverImage2,
       
     },
     {
-      atl:"Note Taker",
+      alt:"Note Taker",
       url: "https://notetaker2021-1.herokuapp.com/",
       imgSrc: coverImage3,
     },
     {
-      atl:"Horiseon",
+      alt:"Horiseon",
       url:"https://santibass.github.io/Horiseon/",
       imgSrc: coverImage4,
     },
     {
-      atl:"Password Generator",
+      alt:"Password Generator",
       url: "https://santibass.github.io/Password-Generator/",
       imgSrc: coverImage5,
     },
     {
-      atl:"Personal Portfolio",
+      alt:"Personal Portfolio",
       url: "https://santibass.github.io/Personal-Portfolio/",
       imgSrc: coverImage6,
       
     },
     {
-      atl:"Weather Dashboard",
+      alt:"Weather Dashboard",
       url: "https://santibass.github.io/Weather-Dashboard/",
       imgSrc: coverImage7,
     },
     {
-      atl:"SYNTH Doctrina",
+      alt:"SYNTH Doctrina",
       url:"https://itsjustpeachy.github.io/SYNT-Doctrina/",
       imgSrc: coverImage8,
     },
     { 
       
-      atl:"Tech Blog",
+      alt:"Tech Blog",
       url:"https://teckblog.herokuapp.com/",
       imgSrc: coverImage9,
     }
@@ -77,7 +77,7 @@ const Projects = ()=> {
        <span className='span'>Pro</span>jects
      </div>
    <div className={Modal? 'Modal open':'Modal'}>
-     <img src={tempimgSrc} alt="project-picture"/>
+     <img src={tempimgSrc} alt="projects" />
      {/* <a href={}/> */}
      
      <button  className='closeBtn' CloseIcon onClick={()=>setModal(false)}>Close</button>
@@ -90,10 +90,10 @@ const Projects = ()=> {
       {data.map((item, index) => {
           return (
           <>
-          <button className='visitProject'><a href={data[index].url}>Visit</a> </button>
+          <button className='visitProject'><a href={data[index].url} alt="">Visit</a> </button>
 
           <div className='pictures' key={index} onClick={() => getImg(item.imgSrc)}>
-            <img src={item.imgSrc} style={{ width: "100%" }}/>
+            <img src={item.imgSrc} alt="Project " style={{ width: "100%" }}/>
           </div>
          </> 
         ) 
