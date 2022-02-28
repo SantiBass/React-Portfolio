@@ -10,7 +10,7 @@ function Nav() {
     <header className="flex-row px-1 header">
       <h2>
         <a data-testid="link" href="/home">
-            <NavLink to="/" onClick={() => handleClick()}>
+            <NavLink to="/home" onClick={() => handleClick()}>
              💻 Let's Code
             </NavLink>
           <li className="mx-2">

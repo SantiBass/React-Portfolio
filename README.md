@@ -6,6 +6,7 @@
 
 ## Description.
 ### "React Portfolio". This is my new knowledge put into practice. This portfolio was built with "[React](https://reactjs.org/)". This portfolio contains a simple one page concept layout which I have to create from the file tree that "[React](https://reactjs.org/)" provides when the application was created. This simple layout is composed by a navigation bar at the top, a body in the middle of the page for content, and the footer with some icons that  would lead to external web domains to provide more information about me.
+#### 
 ## Table of Content
 * [Installation](#installation)
 * [License](#license)
@@ -26,6 +27,8 @@
 
 ## Usage
 #### Using this application is very simple since it can be used as a regular website. The buttons in the navigation bar would lead user to its respective page. For example  clicking on the "Projects" button would lead to the projects' section.
+
+#### I will be working in getting the "Home page" is displayed when the application is first opened.
 
 
 ## Credits
