@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": ".", 
+  "homepage": "https://SantiBass.github.io/React-Portfolio/", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,7 @@
     "yarn": "^1.22.17"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3006 react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
