@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// import { Home } from '@mui/icons-material';
+// import Home from './components/Home/Home'
+// import Footer from './components/Footer/Footer';
 ReactDOM.render( 
+  
   <React.StrictMode>
     <App />
+{/* <div></div> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

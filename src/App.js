@@ -13,21 +13,24 @@ function App() {
   return (
     <Router>
       <Nav />
-      <Routes>
-        {/* <Route path="/home" element={<Home />} />
      
-        <Route path="/home" element={<Home />} /> */}
+      <Routes>
+        <Route path="/home" element={<Home />} />
+     
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
+        <></>
       </Routes>
-      <Home/>
+      {/* <Home/>
       <About/>
       <Projects/>
       <Contact/>
       <Resume/>
-      <Footer/>
+       */}
+        <Footer/>
     </Router>
   );
 }

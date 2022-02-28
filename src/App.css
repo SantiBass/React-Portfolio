@@ -1,3 +1,7 @@
+* {box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
 .About {
   background-image: url("./assets/cover/1.jpg");
   background-size: cover;
@@ -31,14 +35,7 @@
 .picBackground{width: 50%;
 height: 1000px;
 }
-.coverImage{
-  background-image : url("../src/assets/cover/santibasslogo.jpg");
- width: 20%;
- height: auto;
- position: absolute;
- z-index: 1;
- font-size: 200px;
-}
+
 .Contact {
   padding-left: 10%;
   background-image: url("./assets/cover/5.jpg");
@@ -110,6 +107,11 @@ h3 {
   padding-left: 50px;
 
 }
+/* .header{
+  position:relative;
+  width: 100%;
+
+} */
 
 /* .hook2{color: white;
 background-color: black;
