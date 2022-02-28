@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://SantiBass.github.io/React-Portfolio/", 
+  "homepage": ".", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {

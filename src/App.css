@@ -1,4 +1,4 @@
-* {box-sizing: border-box;
+*{box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
@@ -35,7 +35,6 @@ padding: 0;
 .picBackground{width: 50%;
 height: 1000px;
 }
-
 .Contact {
   padding-left: 10%;
   background-image: url("./assets/cover/5.jpg");
@@ -105,10 +104,10 @@ h3 {
   color: #6f6c6c;
   font-size: 50px;
   padding-left: 50px;
-
 }
-/* .header{
-  position:relative;
+/* }
+.header{
+  position:fixed;
   width: 100%;
 
 } */
