@@ -10,6 +10,7 @@ import coverImage6 from '../../assets/Projects-Images/santibass.github.io_Person
 import coverImage7 from '../../assets/Projects-Images/santibass.github.io_Weather-Dashboard_.png'
 import coverImage8 from '../../assets/Projects-Images/SytnDoctrina.png'
 import coverImage9 from '../../assets/Projects-Images/The-Tech-Blog.png'
+import coverImage10 from '../../assets/Projects-Images/Meme-OH-gram.png'
 
 const Projects = ()=> {
   
@@ -61,6 +62,12 @@ const Projects = ()=> {
       alt:"Tech Blog",
       url:"https://teckblog.herokuapp.com/",
       imgSrc: coverImage9,
+    },
+    { 
+      
+      alt:"Meme-OH-gram",
+      url:"https://meme-oh-gram.herokuapp.com/",
+      imgSrc: coverImage10,
     }
   ];
   const [Modal, setModal] = useState(false);
